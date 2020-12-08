@@ -1,0 +1,167 @@
+/*                                        EON MAIN PAGE                        */
+
+/* EON LOGO */
+.logoImage {
+    content: url("/images/Circle-logo.jpg");
+    background: none;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    transform: translateX(66%) translateY(-23%) rotate(-28deg);
+    z-index: 0;
+    opacity: 0.7;
+    mix-blend-mode: multiply;
+}
+
+
+.astroImage {
+    content: url("/images/EON.jpg");
+    background: none;
+    height: 35vh;
+    display: flex;
+    position: absolute;
+    transform: translateX(-60%) translateY(110%);
+    z-index: 0;
+    opacity: 0.9;
+    mix-blend-mode: multiply;
+}
+
+/* EON MAIN PAGE */
+.home {
+    display: flex;
+    position: inherit;
+    background: url("/images/Background-EonLogo2.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: flex;
+    height: 110vh;
+    color: #2c85fad3;
+    font-family: 'Ubuntu',
+        sans-serif;
+    background-color: none;
+    width: 100%;
+    transform: translateX(10%);
+    mix-blend-mode: multiply;
+}
+
+.home .max-width {
+    margin: 0;
+    padding-left: 0;
+}
+
+.home .home-content {
+    z-index: 9999;
+    transform: translateX(7.5%) translateY(5%);
+}
+
+.home .home-content .text-1 {
+    font-size: 110%;
+    color: #2c85fad3;
+    transform: translateX(-35%) translateY(-1700%);
+}
+
+.home .home-content .text-1 span {
+    color: #ff00f7ce;
+    padding-left: 2px;
+}
+
+
+.home .home-content .text-0 {
+    font-size: 110%;
+    color: #2c85fad3;
+    transform: translateX(-15%) translateY(-1600%);
+}
+
+.home .home-content .text-0 span {
+    color: #ff00f7ce;
+    padding-left: 2px;
+}
+
+.home .home-content .text-2 {
+    font-size: 1500%;
+    font-weight: 900;
+    transform: translateX(20%) translateY(0%);
+    letter-spacing: 0px;
+}
+
+.home .home-content .text-2 span {
+    opacity: 0.4;
+    color: white;
+}
+
+.home .home-content .text-3 {
+    font-size: 280%;
+    letter-spacing: 28px;
+    transform: translateX(5.8%) translateY(30%);
+    opacity: 1;
+}
+
+.home .home-content .text-3 span {
+    color: #ff00f7ce;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.home .home-content .Line-top {
+    border-top: 3px solid #ff00f7ce;
+    width: 70%;
+    transform: translateX(27.5%) translateY(200%);
+    opacity: 1;
+}
+
+.home .home-content .Line-bottom {
+    border-top: 3px solid #ff00f7ce;
+    width: 70%;
+    transform: translateX(27.5%) translateY(700%);
+    opacity: 1;
+}
+
+.home .home-content .text-5 {
+    font-size: 100%;
+    letter-spacing: 0px;
+    transform: translateX(20%) translateY(90%);
+    letter-spacing: 0px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    opacity: 1;
+}
+
+.home .home-content .text-5 span {
+    color: #ff00f7ce;
+
+}
+
+.home .home-content .text-4 {
+    transform: translateX(38%) translateY(100%);
+    font-size: 140%;
+
+}
+
+.home .home-content .text-4 span {
+    font-size: 200%;
+    color: #ff00f7ce;
+    padding-left: 20px;
+}
+
+.home .home-content a {
+    display: inline-block;
+    background: #ff00f7d0;
+    color: white;
+    font-size: 100%;
+    padding: 12px 12px 12px 12px;
+    border-radius: 12px;
+    border: 3px solid #ff00f717;
+    transition: 0.3s ease;
+    font-weight: 900;
+    transform: translateX(360%) translateY(180%);
+    opacity: 0.7;
+}
+
+.home .home-content a:hover {
+    background: none;
+    color: #ff00f7ce;
+    border: none;
+    opacity: 0.2;
+}
